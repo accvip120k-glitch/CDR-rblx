@@ -30,11 +30,11 @@ local _v23 = _v22:AddButton({
     local _v178 = _v2:Notify({
     Description = "Link TikTok \xc4\x91\xc3\xa3 \xc4\x91\xc6\xb0\xe1\xbb\xa3c copy v\xc3\xa0o clipboard!",
     Duration = 3,
-    Title = "\xc4\x90\xc3\xa3 copy link TikTok"
+    Title = "\xc4\x90\xc3\xa3 copy link discord"
 })
     local _ = fenv["9koi0xLonKjR"]
 end,
-    Title = "\xf0\x9f\x93\xb1 TikTok Huy script"
+    Title = "\xf0\x9f\x93\xb1 discord CDR"
 })
 local _v24 = _v5:AddRightGroupbox("PvP")
 local _v25 = _v24:AddButton({Callback = function()
