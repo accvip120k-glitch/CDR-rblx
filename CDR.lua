@@ -2,7 +2,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/VanThanhIOS/OniiChan
 
        local Window = MakeWindow({
          Hub = {
-         Title = "CDR RBLX|https://discord.gg/tXehAyHwp",
+         Title = "CDR RBLX | https://discord.gg/tXehAyHwp",
          Animation = "CDR RBLX"
          },
         Key = {
@@ -21,7 +21,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/VanThanhIOS/OniiChan
   })
 
        MinimizeButton({
-       Image = "http://www.roblox.com/asset/?id=82552663036988",
+       Image = "http://www.roblox.com/asset/?id=114259856900004",
        Size = {60, 60},
        Color = Color3.fromRGB(10, 10, 10),
        Corner = true,
