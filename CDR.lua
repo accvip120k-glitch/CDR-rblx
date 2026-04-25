@@ -125,7 +125,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/DiosDi/VexonHub/refs/
   })
 
  local sound = Instance.new("Sound")
-sound.SoundId = "rbxassetid://115189039255362"
+sound.SoundId = "rbxassetid://98478274854651"
 sound.Volume = 1
 sound.Looped = false
 sound.Parent = workspace
