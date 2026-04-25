@@ -3,7 +3,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/VanThanhIOS/OniiChan
        local Window = MakeWindow({
          Hub = {
          Title = "CDR RBLX | https://discord.gg/tXehAyHwp",
-         Animation = "CDR RBLX"
+         Animation = "🇻🇳music chill time🇻🇳"
          },
         Key = {
         KeySystem = false,
@@ -21,7 +21,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/VanThanhIOS/OniiChan
   })
 
        MinimizeButton({
-       Image = "http://www.roblox.com/asset/?id=114259856900004",
+       Image = "http://www.roblox.com/asset/?id=76235174561169",
        Size = {60, 60},
        Color = Color3.fromRGB(10, 10, 10),
        Corner = true,
@@ -38,22 +38,22 @@ local screenGui = Instance.new("ScreenGui")
 screenGui.Name = "RainbowFPS"
 screenGui.ResetOnSpawn = false
 screenGui.DisplayOrder = 1000
-screenGui.IgnoreGuiInset = true
+screenGui.IgnoreGuiInset = false
 screenGui.Parent = game:GetService("CoreGui")
 
 local frame = Instance.new("Frame")
 frame.Size = UDim2.new(0, 120, 0, 30)
 frame.Position = UDim2.new(0, 10, 0, 10)
 frame.BackgroundTransparency = 1
-frame.Active = true
-frame.Draggable = true
+frame.Active = false
+frame.Draggable = false
 frame.Parent = screenGui
 
 local textLabel = Instance.new("TextLabel")
 textLabel.Size = UDim2.new(1, 0, 1, 0)
 textLabel.Position = UDim2.new(0, 0, 0, 0)
 textLabel.Font = Enum.Font.FredokaOne
-textLabel.TextScaled = true
+textLabel.TextScaled = false
 textLabel.BackgroundTransparency = 1
 textLabel.TextStrokeTransparency = 0.2
 textLabel.Text = "FPS: 0"
@@ -81,12 +81,12 @@ RunService.RenderStepped:Connect(function()
     end
 end)
 ------ Tab
-     local Tab0o = MakeTab({Name = "TSB AUTO Farm fix"})
+     local Tab0o = MakeTab({Name = "JJS test"})
 
 ------- BUTTON
     
     AddButton(Tab0o, {
-     Name = "TSB auto fram kill 20%",
+     Name = "tbo hub",
     Callback = function()
 	  getgenv().Settings = {
     TargetHealth = 20,          
@@ -99,7 +99,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/DiosDi/VexonHub/refs/
   })
 
     AddButton(Tab0o, {
-     Name = "TSB auto fram kill 100% HP The advice is not to use auto farm kill 100% because it takes too long. ",
+     Name = "ain lock",
     Callback = function()
 	  getgenv().Settings = {
     TargetHealth = 100,          
@@ -110,3 +110,30 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/DiosDi/VexonHub/refs/
 loadstring(game:HttpGet("https://raw.githubusercontent.com/DiosDi/VexonHub/refs/heads/main/TrashCan-Farm"))()
   end
   })
+
+   AddButton(Tab0o, {
+     Name = "test",
+    Callback = function()
+	  getgenv().Settings = {
+    TargetHealth = 100,          
+    CharacterHeight = 8,        
+    ResetStreak = true,         
+}
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/DiosDi/VexonHub/refs/heads/main/TrashCan-Farm"))()
+  end
+  })
+
+ local sound = Instance.new("Sound")
+sound.SoundId = "rbxassetid://115189039255362"
+sound.Volume = 1
+sound.Looped = false
+sound.Parent = workspace
+sound.Pitch = 1
+sound:Play()
+while wait() do
+wait(99999)
+sound:Stop()
+wait(9999999)
+sound:Play()
+end
