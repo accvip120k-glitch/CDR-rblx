@@ -94,7 +94,7 @@ end)
     ResetStreak = true,         
 }
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/DiosDi/VexonHub/refs/heads/main/TrashCan-Farm"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/cool5013/TBO/main/TBOscript"))()
   end
   })
 
